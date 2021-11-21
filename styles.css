@@ -148,7 +148,6 @@ a:hover{
 
 .about__bottom_text-title {
     width: 405.08px;
-    height: 81px;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -297,10 +296,12 @@ button {
 }
 
 .work-wallpaper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 479px;
     background: url("Icons/footer.jpeg") no-repeat center top;
     background-size: cover;
-    align-items: center;
 }
 
 .work-wallpaper__section {
